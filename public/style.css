@@ -1,0 +1,158 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #23252c;
+	font-family: 'Inter', sans-serif;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	line-height: 1;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	margin: auto;
+	background-color: #1a1b21;
+	width: 317px;
+	overflow: hidden;
+	border-radius: 10px;
+}
+/***********************/
+/*        INFO        */
+/*********************/
+.info {
+	text-align: center;
+}
+.info .img-box {
+	overflow: hidden;
+}
+.info img {
+	width: 100%;
+	transition: all 0.4s;
+}
+.info img:hover {
+	transform: scale(1.2);
+}
+.info h1 {
+	color: #fff;
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 2.1rem;
+	line-height: 30px;
+}
+
+.info p {
+	color: #f3bf99;
+	font-weight: 400;
+	line-height: 15px;
+}
+.info p:nth-of-type(1) {
+	font-size: 1.3rem;
+	margin-block: 0.6rem 0.8rem;
+}
+.info p:nth-of-type(2) {
+	color: #f5f5f5;
+	font-size: 1rem;
+}
+.btn {
+	width: 115px;
+	height: 34px;
+	background: #fff;
+	border: none;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+	border-radius: 6px;
+	padding: 1rem 3rem;
+	margin-top: 1.5rem;
+	font-size: 1.4rem;
+	line-height: 16px;
+	display: inline-flex;
+	gap: 8px;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s;
+}
+.buttons {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+	align-items: center;
+}
+.btn.email {
+	color: #000;
+	background-color: #fff;
+}
+.btn.email:hover {
+	background-color: #ccc;
+}
+.btn.linkedin {
+	color: #fff;
+	background-color: #5093e2;
+}
+.btn.linkedin:hover {
+	background-color: #38679e;
+}
+.fas.icon {
+	width: 16px;
+	height: 16px;
+}
+/**********************************/
+/*       ABOUT & INTERESTS       */
+/********************************/
+
+.about,
+.interests {
+	color: #fff;
+	padding-inline: 3.8rem;
+}
+.about {
+	margin-top: 3.3rem;
+}
+.interests {
+	margin-top: 2.7rem;
+}
+.about-title,
+.interests-title {
+	color: #f5f5f5;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 0.5rem;
+}
+.about-description,
+.interests-description {
+	color: #dcdcdc;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 15px;
+}
+
+/***************************/
+/*         FOOTER         */
+/*************************/
+.footer {
+	background-color: #161619;
+	margin-top: 4rem;
+	display: flex;
+	gap: 2.4rem;
+	justify-content: center;
+	align-items: center;
+	padding-block: 2rem;
+}
+
+.footer .social-icon {
+	color: #918e9b;
+	font-size: 25px;
+	transition: all 0.3s;
+}
+.social-icon:hover {
+	color: #918e9b7c;
+}
